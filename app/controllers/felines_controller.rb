@@ -4,7 +4,7 @@ class FelinesController < ApplicationController
     @felines = @breed.felines
     json_response(@felines)
   end
-
+  
   def show
     @breed = Breed.find(params[:breed_id])
     @feline = @breed.felines.find(params[:id])

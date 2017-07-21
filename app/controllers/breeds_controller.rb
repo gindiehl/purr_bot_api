@@ -9,6 +9,11 @@ class BreedsController < ApplicationController
     json_response(@breed)
   end
 
+  def by_name
+    @breed = Breed.by_name(params[:name])
+    json_response(@breed)
+  end
+
   def create
     @breed = Breed.create!(breed_params)
     json_response(@breed, :created)
