@@ -40,7 +40,7 @@ Run `rails s` for a dev server. Navigate to `http://localhost:3000/`. The app wi
 
 | Behavior |  Input   |  Output  |
 |----------|:--------:|:--------:|
-|Add a breed to the database|Post, name => 'Abyssinian'|name: Abyssinian, id: 1|
+|Add a breed to the database|Post, name => 'Abyssinian'|message: "Meow!"|
 |Add a feline to the database|Visit specific breed path, Post, name => 'Ozzie', age => '2' coat_color: '{Saxophone}', breed_id: 1|name: 'Ozzie', coat_color: ['red, 'gold', 'brown', 'black'], breed: { name: 'Abyssinian'}|
 |Update a breed.|Put, name => 'Abyssinian'|name: 'Abyssinian', id:1|
 |Update a feline|Visit specific breed path, Put, name => 'Mr. Ozzie'|name: 'Mr. Ozzie', coat_color: ['red, 'gold', 'brown', 'black'], breed: { name: 'Abyssinian'}|
