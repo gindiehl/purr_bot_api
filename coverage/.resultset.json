@@ -7,8 +7,6 @@
         1,
         2,
         2,
-        2,
-        2,
         null
       ],
       "/Users/Guest/Desktop/purr_bot/spec/rails_helper.rb": [
@@ -288,7 +286,7 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/purr_bot/app/models/feline.rb": [
+      "/Users/Guest/Desktop/purr_bot/app/models/breed.rb": [
         1,
         1,
         1,
@@ -306,9 +304,11 @@
         1,
         2,
         2,
+        2,
+        2,
         null
       ],
-      "/Users/Guest/Desktop/purr_bot/app/models/breed.rb": [
+      "/Users/Guest/Desktop/purr_bot/app/models/feline.rb": [
         1,
         1,
         1,
@@ -381,6 +381,25 @@
         null,
         1,
         1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/purr_bot/spec/requests/post_feline_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
         2,
         null,
         null,
@@ -477,7 +496,7 @@
       "/Users/Guest/Desktop/purr_bot/app/controllers/concerns/response.rb": [
         1,
         1,
-        10,
+        12,
         null,
         null
       ],
@@ -496,9 +515,9 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        2,
+        2,
+        2,
         null,
         null,
         1,
@@ -522,11 +541,11 @@
         null,
         1,
         1,
-        0,
+        2,
         null,
         null
       ]
     },
-    "timestamp": 1500672326
+    "timestamp": 1500673006
   }
 }

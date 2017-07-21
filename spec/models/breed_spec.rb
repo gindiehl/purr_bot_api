@@ -1,8 +1,6 @@
 require 'rails_helper'
 
-describe Feline do
-  it { should belong_to :breed }
+describe Breed do
+  it { should have_many :felines }
   it { should validate_presence_of :name }
-  it { should validate_presence_of :age }
-  it { should validate_presence_of :coat_color }
 end
