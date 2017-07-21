@@ -4,11 +4,17 @@ class FelinesController < ApplicationController
     @felines = @breed.felines
     json_response(@felines)
   end
-  
+
   def show
     @breed = Breed.find(params[:breed_id])
     @feline = @breed.felines.find(params[:id])
     json_response(@feline)
+  end
+
+  def random
+    @breed = Breed.find(params[:breed_id])
+    @felines = @breed.felines.where(age: 1..20)
+    json_response(@felines)
   end
 
   def create

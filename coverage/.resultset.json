@@ -258,7 +258,7 @@
         1,
         null,
         1,
-        5,
+        7,
         null,
         null,
         null,
@@ -280,6 +280,9 @@
         null,
         1,
         1,
+        1,
+        1,
+        null,
         null,
         null,
         null
@@ -315,7 +318,7 @@
         1,
         1,
         1,
-        null,
+        1,
         null
       ],
       "/Users/Guest/Desktop/purr_bot/spec/requests/delete_breed_spec.rb": [
@@ -362,6 +365,25 @@
         null
       ],
       "/Users/Guest/Desktop/purr_bot/spec/requests/get_felines_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/purr_bot/spec/requests/get_random_spec.rb": [
         1,
         null,
         1,
@@ -549,7 +571,7 @@
       "/Users/Guest/Desktop/purr_bot/app/controllers/concerns/response.rb": [
         1,
         1,
-        16,
+        18,
         null,
         null
       ],
@@ -570,6 +592,12 @@
         3,
         3,
         3,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
         null,
         null,
         1,
@@ -610,6 +638,6 @@
         null
       ]
     },
-    "timestamp": 1500679503
+    "timestamp": 1500681108
   }
 }
