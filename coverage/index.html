@@ -14,27 +14,27 @@
       <img src="./assets/0.10.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-07-21T14:36:46-07:00">2017-07-21T14:36:46-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-07-21T14:39:38-07:00">2017-07-21T14:39:38-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">95.1%</span></span>
+    (<span class="covered_percent"><span class="green">98.58%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.2
+         1.24
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>32</b> files in total.
-    <b>204</b> relevant lines. 
-    <span class="green"><b>194</b> lines covered</span> and
-    <span class="red"><b>10</b> lines missed </span>
+    <b>33</b> files in total.
+    <b>211</b> relevant lines. 
+    <span class="green"><b>208</b> lines covered</span> and
+    <span class="red"><b>3</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -77,17 +77,17 @@
         <td>3</td>
         <td>3</td>
         <td>0</td>
-        <td>4.7</td>
+        <td>5.0</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#f27058a0fb5a64d0c3d8ce99999b90bd45d3dbb4" class="src_link" title="app/controllers/felines_controller.rb">app/controllers/felines_controller.rb</a></td>
-        <td class="red strong">60.0 %</td>
+        <td class="yellow strong">88.0 %</td>
         <td>43</td>
         <td>25</td>
-        <td>15</td>
-        <td>10</td>
-        <td>0.9</td>
+        <td>22</td>
+        <td>3</td>
+        <td>1.2</td>
       </tr>
       
       <tr>
@@ -247,7 +247,7 @@
         <td>13</td>
         <td>13</td>
         <td>0</td>
-        <td>1.1</td>
+        <td>1.2</td>
       </tr>
       
       <tr>
@@ -342,6 +342,16 @@
       
       <tr>
         <td class="strong"><a href="#43be86f47120864569310c8f4e00dc3c99b26f16" class="src_link" title="spec/requests/put_breed_spec.rb">spec/requests/put_breed_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>11</td>
+        <td>7</td>
+        <td>7</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#9476532b8a5985237168525d40fc7172f5922e05" class="src_link" title="spec/requests/put_feline_spec.rb">spec/requests/put_feline_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>11</td>
         <td>7</td>
@@ -756,8 +766,8 @@
           <code class="ruby">  def json_response(object, status = :ok)</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="3">
-          <span class="hits">12</span>
+        <li class="covered" data-hits="13" data-linenumber="3">
+          <span class="hits">13</span>
           
           <code class="ruby">    render json: object, status: status</code>
         </li>
@@ -782,11 +792,11 @@
         <div class="source_table" id="f27058a0fb5a64d0c3d8ce99999b90bd45d3dbb4">
   <div class="header">
     <h3>app/controllers/felines_controller.rb</h3>
-    <h4><span class="red">60.0 %</span> covered</h4>
+    <h4><span class="yellow">88.0 %</span> covered</h4>
     <div>
       <b>25</b> relevant lines. 
-      <span class="green"><b>15</b> lines covered</span> and
-      <span class="red"><b>10</b> lines missed.</span>
+      <span class="green"><b>22</b> lines covered</span> and
+      <span class="red"><b>3</b> lines missed.</span>
     </div>
   </div>
   
@@ -841,20 +851,20 @@
           <code class="ruby">  def show</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="9">
-          
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
           
           <code class="ruby">    @breed = Breed.find(params[:breed_id])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="10">
-          
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
           
           <code class="ruby">    @feline = @breed.felines.find(params[:id])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="11">
-          
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
           
           <code class="ruby">    json_response(@feline)</code>
         </li>
@@ -913,26 +923,26 @@
           <code class="ruby">  def update</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="21">
-          
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
           
           <code class="ruby">    @breed = Breed.find(params[:breed_id])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="22">
-          
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
           
           <code class="ruby">    @feline = Feline.find(params[:id])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="23">
-          
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
           
           <code class="ruby">    if @feline.update!(feline_params)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="24">
-          
+        <li class="covered" data-hits="1" data-linenumber="24">
+          <span class="hits">1</span>
           
           <code class="ruby">      render status: 200, json: {</code>
         </li>
@@ -1033,8 +1043,8 @@
           <code class="ruby">  def feline_params</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="41">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="41">
+          <span class="hits">3</span>
           
           <code class="ruby">    params.permit(:name, :age, :coat_color, :breed_id)</code>
         </li>
@@ -2435,8 +2445,8 @@
           <code class="ruby">      after(:create) do |breed, evaluator|</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="10">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="10">
+          <span class="hits">3</span>
           
           <code class="ruby">        create_list(:feline, evaluator.felines_count, breed: breed)</code>
         </li>
@@ -3733,6 +3743,91 @@
           <span class="hits">1</span>
           
           <code class="ruby">    expect(JSON.parse(response.body)[&quot;name&quot;]).to eq(&#39;Abyssinian&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="9476532b8a5985237168525d40fc7172f5922e05">
+  <div class="header">
+    <h3>spec/requests/put_feline_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &quot;the update feline route&quot;, :type =&gt; :request do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &#39;tests the put route&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    breed = FactoryGirl.create(:breed_with_felines)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    put &quot;/breeds/#{breed.id}/felines/#{breed.felines[0].id}&quot;, params: { :name =&gt; &#39;Ozzie&#39;}</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    get &quot;/breeds/#{breed.id}/felines/#{breed.felines[0].id}&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(JSON.parse(response.body)[&quot;name&quot;]).to eq(&#39;Ozzie&#39;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">

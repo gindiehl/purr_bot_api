@@ -258,7 +258,7 @@
         1,
         null,
         1,
-        2,
+        3,
         null,
         null,
         null,
@@ -425,6 +425,19 @@
         null,
         null
       ],
+      "/Users/Guest/Desktop/purr_bot/spec/requests/put_feline_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/purr_bot/spec/requests/unprocessable_entity_exception_spec.rb": [
         1,
         null,
@@ -496,7 +509,7 @@
       "/Users/Guest/Desktop/purr_bot/app/controllers/concerns/response.rb": [
         1,
         1,
-        12,
+        13,
         null,
         null
       ],
@@ -509,9 +522,9 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
         null,
         null,
         1,
@@ -521,10 +534,10 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
@@ -541,11 +554,11 @@
         null,
         1,
         1,
-        2,
+        3,
         null,
         null
       ]
     },
-    "timestamp": 1500673006
+    "timestamp": 1500673178
   }
 }
