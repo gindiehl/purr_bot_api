@@ -2,7 +2,7 @@
 
 ## Description
 
-An api that will return a list of felines up for adoption. It will let you search available felines by breed.
+An api that will return a list of feline breeds and their associated felines available for adoption. It will let you search for your next purrbot by coat color.
 
 ## Technologies used / Prerequisites
 
