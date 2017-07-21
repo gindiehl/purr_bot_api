@@ -350,6 +350,19 @@
         null,
         null
       ],
+      "/Users/Guest/Desktop/purr_bot/spec/requests/put_breed_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/purr_bot/app/controllers/breeds_controller.rb": [
         1,
         1,
@@ -358,8 +371,8 @@
         null,
         null,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         1,
@@ -368,9 +381,9 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
         null,
         null,
         null,
@@ -387,7 +400,7 @@
         null,
         1,
         1,
-        2,
+        3,
         null,
         null,
         null
@@ -408,11 +421,11 @@
       "/Users/Guest/Desktop/purr_bot/app/controllers/concerns/response.rb": [
         1,
         1,
-        4,
+        5,
         null,
         null
       ]
     },
-    "timestamp": 1500671502
+    "timestamp": 1500671626
   }
 }
