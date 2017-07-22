@@ -4,7 +4,7 @@ FactoryGirl.define do
     name('Abyssinian')
     factory :breed_with_felines do
       transient do
-        felines_count 10
+        felines_count 6
       end
       after(:create) do |breed, evaluator|
         create_list(:feline, evaluator.felines_count, breed: breed)

@@ -8,7 +8,7 @@ describe "get random felines route", :type => :request do
   end
 
   it 'returns random felines for a particular breed' do
-    expect(JSON.parse(response.body).size).to eq(10)
+    expect(JSON.parse(response.body).size).to eq(6)
   end
 
   it 'returns status code 200' do
