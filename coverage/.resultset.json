@@ -550,6 +550,21 @@
         null,
         null
       ],
+      "/Users/Guest/Desktop/purr_bot/spec/requests/throttle_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/purr_bot/spec/requests/unprocessable_entity_exception_spec.rb": [
         1,
         null,
@@ -693,6 +708,6 @@
         null
       ]
     },
-    "timestamp": 1500684118
+    "timestamp": 1500684349
   }
 }
