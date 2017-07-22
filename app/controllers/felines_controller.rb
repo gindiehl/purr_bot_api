@@ -1,7 +1,7 @@
 class FelinesController < ApplicationController
   def index
     @breed = Breed.find(params[:breed_id])
-    @felines = @breed.felines
+    @felines = @breed.felines.page params[:page]
     json_response(@felines)
   end
 

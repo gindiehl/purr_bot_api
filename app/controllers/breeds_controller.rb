@@ -1,6 +1,6 @@
 class BreedsController < ApplicationController
   def index
-    @breeds = Breed.all
+    @breeds = Breed.all.page params[:page]
     json_response(@breeds)
   end
 
