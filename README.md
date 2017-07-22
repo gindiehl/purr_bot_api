@@ -1,8 +1,8 @@
-# PURR BOT API
+# PURR😻BOT API
 
 ## Description
 
-An api that will return a list of feline breeds and their associated felines available for adoption. It will let you search for your next purrbot by coat color.
+An api that will return a list of feline breeds and associated felines available for adoption. It will let you search for your next purrbot randomly and by breed name.
 
 ## Technologies used / Prerequisites
 
@@ -51,18 +51,18 @@ Run `rails s` for a dev server. Navigate to `http://localhost:3000/`. The app wi
 |Search for a feline by breed name|Visit '/breeds/by_name?name=Abyssinian'|felines: name: 'Ozzie'|
 |Search for random felines|Visit '/breeds/1/felines/random'|felines: name: 'Ozzie'|
 
-## Feline Path
+## Feline Path 🐈 🐈 🐈
 ![Feline](public/images/felines.png)
-## Random Path
+## Random Path 🐈 🐈 🐈 🐈 🐈
 ![Breed](public/images/random.png)
-## Search Path
+## Search Path 🐈 🐈 🐈 🐈 🐈 🐈 🐈 🐈
 ![Search](public/images/by_name.png)
 
 ## Known Bugs
 * N/A
 
 ### Support and contact details
-  _jincamou@gmail.com_
+  _jincamou@gmail.com_ 🐈
 
 ### License
   _MIT_ &copy; _2017_ **jin camou**
