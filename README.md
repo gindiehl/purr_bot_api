@@ -41,14 +41,15 @@ Run `rails s` for a dev server. Navigate to `http://localhost:3000/`. The app wi
 | Behavior |  Input   |  Output  |
 |----------|:--------:|:--------:|
 |Add a breed to the database|Post, name => 'Abyssinian'|message: "Meow!"|
-|Add a feline to the database|Visit specific breed path, Post, name => 'Ozzie', age => '2' coat_color: '{Saxophone}', breed_id: 1|name: 'Ozzie', coat_color: ['red, 'gold', 'brown', 'black'], breed: { name: 'Abyssinian'}|
+|Add a feline to the database|Visit specific breed path, Post, name => 'Ozzie', age => '2' coat_color: '{'gold'}', breed_id: 1|name: 'Ozzie', coat_color: ['gold'], breed: { name: 'Abyssinian'}|
 |Update a breed.|Put, name => 'Abyssinian'|name: 'Abyssinian', id:1|
 |Update a feline|Visit specific breed path, Put, name => 'Mr. Ozzie'|name: 'Mr. Ozzie', coat_color: ['red, 'gold', 'brown', 'black'], breed: { name: 'Abyssinian'}|
 |Delete a feline.|Visit specific feline path, Delete|message: "Adopted!"|
 |Delete a breed.|Visit a specific breed path, Delete|message: "All out!"|
 |See a list of all breeds|Visit '/breeds' path|name: Abyssinian|
 |See a list of all felines for a particular breed|Visit '/breeds/1'|felines: name: Ozzie|
-|Search for a feline by coat_color|Visit '/breeds/1/felines/by_coat_color?coat_color="black"'|felines: name: Delilah, coat_color: '{black}'|
+|Search for a feline by breed name|Visit '/breeds/by_name?name=Abyssinian'|felines: name: Ozzie, age: 9, coat_color: '{gold}'|
+|Search for random felines|Visit '/breeds/1/felines/random'|felines: name: Ozzie, age: 9, coat_color: '{gold}'|
 
 ## Known Bugs
 * N/A
@@ -62,8 +63,8 @@ Copyright (c) 2017 jin camou
 ```
 
 ## Felines Path
-![Feline](public/images/feline.png)
-## Breeds Path
-![Breed](public/images/breeds.png)
+![Feline](public/images/felines.png)
+## Random Path
+![Breed](public/images/random.png)
 ## Search Path
-![Search](public/images/search.png)
+![Search](public/images/by_name.png)
